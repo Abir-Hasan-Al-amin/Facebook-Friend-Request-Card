@@ -2,7 +2,7 @@ const btn =document.querySelector("button");
 const s= document.querySelector("#s");
 btn.addEventListener('click',e=>{
     if(s.innerHTML=="Stranger"){
-        s.innerHTML="Friends";
+        s.innerHTML="Friend";
         s.style.color="green";
         btn.innerHTML ="Remove";
         btn.style.backgroundColor="silver";
